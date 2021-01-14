@@ -28,3 +28,33 @@
   font-size: 3em;
   padding: 30px;
 }
+
+#numeri-utente {
+  display: none;
+}
+
+#numeri-computer {
+  display: none;
+}
+
+.active {
+  display: block !important;
+}
+
+.risultati {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.risultati h2 {
+  padding: 15px 0;
+  font-size: 2em;
+}
+
+.punteggio {
+  padding: 40px;
+  color: yellowgreen;
+  font-size: 2em;
+}
